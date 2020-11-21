@@ -25,6 +25,10 @@ body {
     margin: 0;
 }
 
+#join>#description {
+    line-height: 1.5em;
+}
+
 #subscription {
     grid-area: subscription;
     background-color: hsl(232, 22%, 50%);
