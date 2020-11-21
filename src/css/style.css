@@ -22,7 +22,12 @@ body {
 
 #join>#title {
     color: hsl(179, 62%, 43%);
-    margin: 0;
+    margin: 0 0 24px 0;
+}
+
+#join>#subtitle {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
 }
 
 #join>#description {
