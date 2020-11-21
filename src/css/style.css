@@ -28,3 +28,9 @@ body {
     grid-area: why-us;
     background-color: hsl(215, 22%, 34%);
 }
+
+#join,
+#subscription,
+#why-us {
+    padding: 2.5em;
+}
