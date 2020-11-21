@@ -9,4 +9,19 @@ body {
     width: 60%;
     background: #ffffff;
     margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "join join" "subscription why-us";
+}
+
+#join {
+    grid-area: join;
+}
+
+#subscription {
+    grid-area: subscription;
+}
+
+#why-us {
+    grid-area: why-us;
 }
