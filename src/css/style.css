@@ -95,3 +95,37 @@ body {
 #why-us {
     padding: 2em;
 }
+
+@media only screen and (max-width:375px) {
+    #container {
+        display: grid;
+        height: 90vh;
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 210px);
+        grid-template-areas: "join" "subscription" "why-us";
+    }
+    #join,
+    #subscription,
+    #why-us {
+        padding: 1em;
+    }
+    #join>#title {
+        font-size: 20px;
+    }
+    #join>#subtitle {
+        font-size: 15px;
+    }
+    #join>#description {
+        font-size: 14px;
+    }
+    #subscription>#monthly {
+        margin-top: 0;
+    }
+    #why-us>#why {
+        margin-top: 0;
+    }
+    #why-us>#why-us-description {
+        font-size: 14px;
+    }
+}
