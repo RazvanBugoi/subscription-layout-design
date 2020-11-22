@@ -25,6 +25,7 @@ body {
 #join>#title {
     color: hsl(179, 62%, 43%);
     margin: 0 0 24px 0;
+    letter-spacing: -1px;
 }
 
 #join>#subtitle {
