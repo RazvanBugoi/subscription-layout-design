@@ -13,6 +13,8 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "join join" "subscription why-us";
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 #join {
