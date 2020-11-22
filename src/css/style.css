@@ -32,24 +32,52 @@ body {
 
 #join>#description {
     line-height: 1.5em;
+    color: hsl(214, 7%, 79%);
 }
 
 #subscription {
     grid-area: subscription;
-    background-color: hsl(232, 22%, 50%);
+    background-color: hsl(179, 61%, 44%);
 }
 
 #subscription>#monthly {
+    color: hsl(165, 42%, 93%)
+}
+
+#subscription>#price,
+#per-month {
+    display: inline;
+}
+
+#subscription>#price {
     color: #ffffff;
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+#subscription>#per-month {
+    color: hsl(181, 50%, 61%)
+}
+
+#subscription>#subscription-description {
+    color: hsl(186, 56%, 79%);
+}
+
+#subscription>#sign-up {
+    background-color: hsl(71, 73%, 54%);
 }
 
 #why-us {
     grid-area: why-us;
-    background-color: hsl(215, 22%, 34%);
+    background-color: hsl(179, 47%, 52%);
 }
 
 #why-us>#why {
-    color: #ffffff;
+    color: hsl(165, 42%, 93%);
+}
+
+#why-us>#why-us-description {
+    color: hsl(186, 56%, 79%);
 }
 
 #join,
