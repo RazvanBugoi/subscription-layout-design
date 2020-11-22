@@ -39,9 +39,17 @@ body {
     background-color: hsl(232, 22%, 50%);
 }
 
+#subscription>#monthly {
+    color: #ffffff;
+}
+
 #why-us {
     grid-area: why-us;
     background-color: hsl(215, 22%, 34%);
+}
+
+#why-us>#why {
+    color: #ffffff;
 }
 
 #join,
