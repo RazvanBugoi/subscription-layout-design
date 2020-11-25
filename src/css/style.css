@@ -19,6 +19,7 @@ body {
     grid-template-areas: "join join" "subscription why-us";
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
 }
 
 #join {
