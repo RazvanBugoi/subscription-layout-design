@@ -11,7 +11,8 @@ body {
 #container {
     display: grid;
     height: 65vh;
-    max-width: 50%;
+    min-width: 50%;
+    max-width: 720px;
     background: #ffffff;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
@@ -111,13 +112,13 @@ body {
     padding: 2em;
 }
 
-@media only screen and (max-width:450px) {
+@media only screen and (max-width:426px) {
     #container {
         display: grid;
         height: 90vh;
-        width: 90%;
+        min-width: 90%;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 210px);
+        grid-template-rows: repeat(3, 1fr);
         grid-template-areas: "join" "subscription" "why-us";
     }
     #join,
