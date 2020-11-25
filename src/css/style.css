@@ -11,7 +11,7 @@ body {
 #container {
     display: grid;
     height: 65vh;
-    width: 60%;
+    max-width: 50%;
     background: #ffffff;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
